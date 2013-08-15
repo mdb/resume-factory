@@ -8,15 +8,18 @@ Solution: Leverage git, [middleman](http://middlemanapp.com), and Amazon S3 to t
 
 Get the source code, set up your environment, and run the server locally:
 
-    git clone https://github.com/mdb/resume-factory.git
+Fork resume-factory and:
 
+    git clone https://github.com/your_username/resume-factory.git
     cd resume-factory
-
     bundle
-
     rake server
 
-Edit the HAML, SCSS, and JS in the source directory to customize your resume.
+Then edit the HAML, SCSS, and JS in the source directory to customize your resume.
+
+Commit your changes to version control.
+
+What to maintain seperate versions of your resume, depending on the type of position you're applying for? Branch, tag, and release multiple versions.
 
 ## About the stylesheets
 
