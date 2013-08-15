@@ -19,7 +19,7 @@ Then edit the HAML, SCSS, and JS in the source directory to customize your resum
 
 Commit your changes to version control.
 
-What to maintain seperate versions of your resume, depending on the type of position you're applying for? Branch, tag, and release multiple versions.
+Want to maintain seperate versions of your resume, depending on the type of position you're applying for? Branch, tag, and release multiple versions.
 
 ## About the stylesheets
 
