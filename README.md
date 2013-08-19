@@ -1,8 +1,10 @@
 # Resume Factory
 
-Problem: maintaining multiple formats and multiple versions of a resume is painful. You're a developer; why haggle with Microsoft Word or Adobe InDesign?
+Create HTML and PDF versions of your resume & upload the files to S3. Use Rake, HAML, SCSS, and JavaScript.
 
-Solution: Leverage git, [middleman](http://middlemanapp.com), and Amazon S3 to to buil and publish HTML and PDF versions of your resume. Use HAML, SCSS & JavaScript.
+Problem: Maintaining multiple formats and multiple versions of a resume is painful. You're a developer; why haggle with Microsoft Word or Adobe InDesign?
+
+Solution: Leverage git, [middleman](http://middlemanapp.com), and Amazon S3.
 
 ## Getting started
 
