@@ -12,13 +12,13 @@ Get the source code, set up your environment, and run the development server loc
 
 1. Fork resume-factory and:
 
-  git clone https://github.com/your_username/resume-factory.git
+    git clone https://github.com/your_username/resume-factory.git
 
-  cd resume-factory
+    cd resume-factory
   
-  bundle
+    bundle
   
-  rake server
+    rake server
 
 2. Edit the HAML, SCSS, and JS in the source directory to customize your resume.
 
@@ -28,15 +28,15 @@ Get the source code, set up your environment, and run the development server loc
 
 5. Comple to static HTML & a PDF:
 
-  rake
+    rake
 
-The default rake tasks builds a 'resume' directory within which is a PDF and HTML version of your resume.
+  The default rake tasks builds a 'resume' directory within which is a PDF and HTML version of your resume.
 
 6. Publish your resume to Amazon S3
 
-  rake upload
+    rake upload
 
-Note that 'rake upload' requires the following environment variables be set in accordance with your S3 credentials:
+  Note that 'rake upload' requires the following environment variables be set in accordance with your S3 credentials:
 
 - AWS_ACCESS_KEY - your AWS access key
 - AWS_SECRET_KEY - your AWS secret key
